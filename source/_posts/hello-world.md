@@ -1,38 +1,32 @@
 ---
-title: Hello World
+title: en quelques mots
+foreword: Présentation du blog et d'Hexo
+tags: hexo, static website, cli
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+## en quelques mots
 
-### Create a new post
+Commençons par le début, ceci est blog créé grâce à [Hexo](https://hexo.io), un générateur de site statique. L'idée principale étant d'avoir un outil facile à mettre à jour pour parler le plus régulièrement possible de mes projets. 
 
-``` bash
-$ hexo new "My New Post"
-```
+Hexo est un outil plutôt simple à prendre en main et possède une galerie assez fournie de thèmes qui s'installent par un simple git clone dans le dossier dédié. La customisation du thème, ou la création d'un nouveau semble elle aussi assez simple. Sur le thème que j'utilise [again](https://github.com/lyyourc/hexo-theme-again) les templates sont rédigés suivant une syntaxe .ejs et le style via le préprocesseur css SASS. 
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+	📁 again
+		📁 layout
+			📁 _partial
+				📃 header.ejs
+				📃 ...
+		📃 layout.ejs
+		📃 ...
+		📁 source
+			📁 css
+				📃 base.scss
+				📃... 
+			📁 js
+				📃 app.js
+				📃 ...
+			📁 images
+	📃 config.yml			
 
-### Run server
+L'intérêt assez évident étant celui du site statique : on se passe de base de données, de configuration backend pour se concentrer sur le contenu du site.
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+Pour de plus amples informations, le plus simple étant peut-être d'aller sur leur [site](https://hexo.io) ou leur [Github](https://github.com/hexojs/hexo). 
