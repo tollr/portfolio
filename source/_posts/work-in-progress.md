@@ -14,4 +14,4 @@ J'apprécie aussi beaucoup des articles ou discussion sur des sujets assez préc
 
 J'essaierai donc de sourcer le plus possibles les articles publiés, et on verra bien ce qu'il advient de tout ça ;).
 
-Un autre site, plus spécifique aux problématiques frontend, comme son nom l'indique : [frontendfront](https://frontendfront.com)
+Un autre site, plus spécifique aux problématiques frontend, comme son nom l'indique : [frontendfront](https://frontendfront.com).
