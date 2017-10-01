@@ -6,3 +6,6 @@ node_modules/
 public/
 .deploy*/
 _config.yml
+source/_drafts/*
+source/_posts/*
+source/about/index.md
